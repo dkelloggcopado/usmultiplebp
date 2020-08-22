@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_back_promotion__c</fullName>
+    <description>Checks to see if the promotion tied to the promoted user story is a back promotion</description>
+    <externalId>false</externalId>
+    <formula>copado__Promotion__r.copado__Back_Promotion__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is back promotion</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
